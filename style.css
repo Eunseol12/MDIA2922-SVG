@@ -1,5 +1,18 @@
-svg {
-    width: 100%;
+.body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boo {
+    width: 100vh;
+    height: auto;
+}
+
+.boo svg {
+    max-width: 100vh;
     height: auto;
 }
 
@@ -27,11 +40,4 @@ svg {
 
  #body {
     animation: strokeAnimation 1s infinite alternate;
-}
-
-@media screen and (max-width: 600px){
-    #boo {
-        animation: none;
-    }
-    
 }
